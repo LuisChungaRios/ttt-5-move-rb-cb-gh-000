@@ -10,4 +10,4 @@ input = gets.strip
 index = input_to_index(input)
 board = move(board, index)
 display_board(board)
-puts "ba;  #{board[index]} boradd"
+puts "ba;  #{index} boradd"
